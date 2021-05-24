@@ -1,0 +1,51 @@
+Status: FAILED
+Time Taken: 2515
+Size: 252
+Timestamp: Mon May 24 11:21:01 IST 2021
+TestStep: Get List
+
+----------------- Messages ------------------------------
+[SOAP Response] error: Unexpected element: OPEN_TAG
+[SOAP Response] Unexpected element: OPEN_TAG
+[Schema Compliance] error: Unexpected element: OPEN_TAG
+[Schema Compliance] Unexpected element: OPEN_TAG
+
+----------------- Properties ------------------------------
+Endpoint: http://soap.upskills.in/soap/default?services=customerCustomerRepositoryV1
+Encoding: UTF-8
+
+---------------- Request ---------------------------
+Request Headers: Authorization : Bearer f0rf13pxtxp7mftwc23rq6e52yvmi5um
+Connection : Keep-Alive
+User-Agent : Apache-HttpClient/4.1.1 (java 1.5)
+Host : soap.upskills.in
+Accept-Encoding : gzip,deflate
+Content-Length : 413
+Content-Type : application/soap+xml;charset=UTF-8;action="customerCustomerRepositoryV1GetList"
+
+
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:def="http://soap.upskills.in/soap/default?services=customerCustomerRepositoryV1">
+   \r
+   <soap:Header/>
+   \r
+   <soap:Body>
+      \r
+      <def:customerCustomerRepositoryV1GetListRequest>
+         \r
+         <searchCriteria>\r</searchCriteria>
+         \r
+      </def:customerCustomerRepositoryV1GetListRequest>
+      \r
+   </soap:Body>
+   \r
+</soap:Envelope>
+
+---------------- Response --------------------------
+Response Headers: Cache-Control : no-cache
+Pragma : no-cache
+#status# : HTTP/1.0 200 OK
+Content-Length : 252
+Content-Type : text/html
+
+
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0"/><style>body{margin:0px;padding:0px;}iframe{width:100%;height:100%}</style><iframe src="http://www.airtel.in/dot/" width="100%" height="100%" frameborder=0></iframe>

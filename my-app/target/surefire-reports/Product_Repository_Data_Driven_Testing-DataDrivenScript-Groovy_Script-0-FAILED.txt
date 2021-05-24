@@ -1,0 +1,91 @@
+Status: FAILED
+Time Taken: 401
+Size: 0
+Timestamp: Wed May 19 11:54:53 IST 2021
+TestStep: Groovy Script
+Error:org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script1.groovy: 40: expecting '}', found '' @ line 40, column 1.org.codehaus.groovy.syntax.SyntaxException: expecting '}', found '' @ line 40, column 1.
+	at org.codehaus.groovy.antlr.AntlrParserPlugin.transformCSTIntoAST(AntlrParserPlugin.java:140)
+	at org.codehaus.groovy.antlr.AntlrParserPlugin.parseCST(AntlrParserPlugin.java:108)
+	at org.codehaus.groovy.control.SourceUnit.parse(SourceUnit.java:236)
+	at org.codehaus.groovy.control.CompilationUnit$1.call(CompilationUnit.java:162)
+	at org.codehaus.groovy.control.CompilationUnit.applyToSourceUnits(CompilationUnit.java:912)
+	at org.codehaus.groovy.control.CompilationUnit.doPhaseOperation(CompilationUnit.java:574)
+	at org.codehaus.groovy.control.CompilationUnit.processPhaseOperations(CompilationUnit.java:550)
+	at org.codehaus.groovy.control.CompilationUnit.compile(CompilationUnit.java:527)
+	at groovy.lang.GroovyClassLoader.doParseClass(GroovyClassLoader.java:279)
+	at groovy.lang.GroovyClassLoader.parseClass(GroovyClassLoader.java:258)
+	at groovy.lang.GroovyShell.parseClass(GroovyShell.java:613)
+	at groovy.lang.GroovyShell.parse(GroovyShell.java:625)
+	at groovy.lang.GroovyShell.parse(GroovyShell.java:652)
+	at groovy.lang.GroovyShell.parse(GroovyShell.java:643)
+	at com.eviware.soapui.support.scripting.groovy.SoapUIGroovyScriptEngine.compile(SoapUIGroovyScriptEngine.java:152)
+	at com.eviware.soapui.support.scripting.groovy.SoapUIGroovyScriptEngine.run(SoapUIGroovyScriptEngine.java:97)
+	at com.eviware.soapui.impl.wsdl.teststeps.WsdlGroovyScriptTestStep.run(WsdlGroovyScriptTestStep.java:154)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.runTestStep(AbstractTestCaseRunner.java:239)
+	at com.eviware.soapui.impl.wsdl.testcase.WsdlTestCaseRunner.runCurrentTestStep(WsdlTestCaseRunner.java:52)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.internalRun(AbstractTestCaseRunner.java:152)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.internalRun(AbstractTestCaseRunner.java:47)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestRunner.run(AbstractTestRunner.java:139)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: Script1.groovy:40:1: expecting '}', found ''
+	at groovyjarjarantlr.Parser.match(Parser.java:211)
+	at org.codehaus.groovy.antlr.parser.GroovyRecognizer.openBlock(GroovyRecognizer.java:8317)
+	at org.codehaus.groovy.antlr.parser.GroovyRecognizer.compoundStatement(GroovyRecognizer.java:7518)
+	at org.codehaus.groovy.antlr.parser.GroovyRecognizer.compatibleBodyStatement(GroovyRecognizer.java:8963)
+	at org.codehaus.groovy.antlr.parser.GroovyRecognizer.forStatement(GroovyRecognizer.java:9165)
+	at org.codehaus.groovy.antlr.parser.GroovyRecognizer.statement(GroovyRecognizer.java:980)
+	at org.codehaus.groovy.antlr.parser.GroovyRecognizer.compilationUnit(GroovyRecognizer.java:757)
+	at org.codehaus.groovy.antlr.AntlrParserPlugin.transformCSTIntoAST(AntlrParserPlugin.java:131)
+	... 26 more
+
+1 error
+
+
+----------------- Messages ------------------------------
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script1.groovy: 40: expecting '}', found '' @ line 40, column 1.org.codehaus.groovy.syntax.SyntaxException: expecting '}', found '' @ line 40, column 1.
+	at org.codehaus.groovy.antlr.AntlrParserPlugin.transformCSTIntoAST(AntlrParserPlugin.java:140)
+	at org.codehaus.groovy.antlr.AntlrParserPlugin.parseCST(AntlrParserPlugin.java:108)
+	at org.codehaus.groovy.control.SourceUnit.parse(SourceUnit.java:236)
+	at org.codehaus.groovy.control.CompilationUnit$1.call(CompilationUnit.java:162)
+	at org.codehaus.groovy.control.CompilationUnit.applyToSourceUnits(CompilationUnit.java:912)
+	at org.codehaus.groovy.control.CompilationUnit.doPhaseOperation(CompilationUnit.java:574)
+	at org.codehaus.groovy.control.CompilationUnit.processPhaseOperations(CompilationUnit.java:550)
+	at org.codehaus.groovy.control.CompilationUnit.compile(CompilationUnit.java:527)
+	at groovy.lang.GroovyClassLoader.doParseClass(GroovyClassLoader.java:279)
+	at groovy.lang.GroovyClassLoader.parseClass(GroovyClassLoader.java:258)
+	at groovy.lang.GroovyShell.parseClass(GroovyShell.java:613)
+	at groovy.lang.GroovyShell.parse(GroovyShell.java:625)
+	at groovy.lang.GroovyShell.parse(GroovyShell.java:652)
+	at groovy.lang.GroovyShell.parse(GroovyShell.java:643)
+	at com.eviware.soapui.support.scripting.groovy.SoapUIGroovyScriptEngine.compile(SoapUIGroovyScriptEngine.java:152)
+	at com.eviware.soapui.support.scripting.groovy.SoapUIGroovyScriptEngine.run(SoapUIGroovyScriptEngine.java:97)
+	at com.eviware.soapui.impl.wsdl.teststeps.WsdlGroovyScriptTestStep.run(WsdlGroovyScriptTestStep.java:154)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.runTestStep(AbstractTestCaseRunner.java:239)
+	at com.eviware.soapui.impl.wsdl.testcase.WsdlTestCaseRunner.runCurrentTestStep(WsdlTestCaseRunner.java:52)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.internalRun(AbstractTestCaseRunner.java:152)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.internalRun(AbstractTestCaseRunner.java:47)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestRunner.run(AbstractTestRunner.java:139)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: Script1.groovy:40:1: expecting '}', found ''
+	at groovyjarjarantlr.Parser.match(Parser.java:211)
+	at org.codehaus.groovy.antlr.parser.GroovyRecognizer.openBlock(GroovyRecognizer.java:8317)
+	at org.codehaus.groovy.antlr.parser.GroovyRecognizer.compoundStatement(GroovyRecognizer.java:7518)
+	at org.codehaus.groovy.antlr.parser.GroovyRecognizer.compatibleBodyStatement(GroovyRecognizer.java:8963)
+	at org.codehaus.groovy.antlr.parser.GroovyRecognizer.forStatement(GroovyRecognizer.java:9165)
+	at org.codehaus.groovy.antlr.parser.GroovyRecognizer.statement(GroovyRecognizer.java:980)
+	at org.codehaus.groovy.antlr.parser.GroovyRecognizer.compilationUnit(GroovyRecognizer.java:757)
+	at org.codehaus.groovy.antlr.AntlrParserPlugin.transformCSTIntoAST(AntlrParserPlugin.java:131)
+	... 26 more
+
+1 error
+

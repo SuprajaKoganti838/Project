@@ -1,0 +1,7 @@
+<env:Envelope xmlns:env="http://www.w3.org/2003/05/soap-envelope" xmlns:ns1="http://soap.upskills.in/soap/default?services=customerCustomerRepositoryV1">
+   <env:Body>
+      <ns1:customerCustomerRepositoryV1DeleteByIdResponse>
+         <result>true</result>
+      </ns1:customerCustomerRepositoryV1DeleteByIdResponse>
+   </env:Body>
+</env:Envelope>

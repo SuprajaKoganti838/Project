@@ -1,0 +1,10 @@
+Status: FAILED
+Time Taken: 221
+Size: 0
+Timestamp: Mon May 24 11:30:03 IST 2021
+TestStep: IsCustomerCreated
+Error:org.apache.xmlbeans.XmlException: error: Unexpected element: OPEN_TAG
+
+----------------- Messages ------------------------------
+org.apache.xmlbeans.XmlException: error: Unexpected element: OPEN_TAG
+error at line: 4

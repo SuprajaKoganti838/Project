@@ -1,0 +1,3 @@
+"Test Suite","Test Case","Test Step","Step Type","Step Status","Result message","Execution Date"
+"CustomerRepositoryFunctionalTesting","PropertyExpansion","Email First and Last Name Properties","properties","OK","","21-May-2021 14_01",
+"CustomerRepositoryFunctionalTesting","PropertyExpansion","Create Customer","request","OK","","21-May-2021 14_01",

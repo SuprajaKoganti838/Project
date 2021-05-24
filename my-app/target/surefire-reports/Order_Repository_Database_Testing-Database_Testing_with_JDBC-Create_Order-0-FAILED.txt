@@ -1,0 +1,38 @@
+Status: FAILED
+Time Taken: 539
+Size: 0
+Timestamp: Wed May 19 13:00:35 IST 2021
+TestStep: Create Order
+
+----------------- Messages ------------------------------
+java.net.SocketException: Network is unreachable: connect
+
+----------------- Properties ------------------------------
+Endpoint: http://soap.upskills.in/soap/default?services=salesOrderRepositoryV1
+Encoding: UTF-8
+
+---------------- Request ---------------------------
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:def="http://soap.upskills.in/soap/default?services=salesOrderRepositoryV1">
+   <soap:Header/>
+   <soap:Body>
+      <def:salesOrderRepositoryV1SaveRequest>
+         <entity>
+            <customerEmail/>
+            <items>
+               <item>
+                  <sku/>
+                  <productId/>
+                  <qtyOrdered/>
+                  <price/>
+               </item>
+            </items>
+            <payment>
+               <method>checkmo</method>
+            </payment>
+         </entity>
+      </def:salesOrderRepositoryV1SaveRequest>
+   </soap:Body>
+</soap:Envelope>
+
+---------------- Response --------------------------
+- missing response / garbage collected -

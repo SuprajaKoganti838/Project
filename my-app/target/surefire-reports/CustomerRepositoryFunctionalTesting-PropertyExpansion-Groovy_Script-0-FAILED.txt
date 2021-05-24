@@ -1,0 +1,10 @@
+Status: FAILED
+Time Taken: 695
+Size: 0
+Timestamp: Wed May 19 11:54:52 IST 2021
+TestStep: Groovy Script
+Error:groovy.lang.MissingPropertyException: No such property: email for class: Script1
+
+----------------- Messages ------------------------------
+groovy.lang.MissingPropertyException: No such property: email for class: Script1
+error at line: 10
