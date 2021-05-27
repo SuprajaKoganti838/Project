@@ -1,0 +1,48 @@
+<env:Envelope xmlns:env="http://www.w3.org/2003/05/soap-envelope" xmlns:ns1="http://soap.upskills.in/soap/default?services=customerCustomerRepositoryV1">
+   <env:Body>
+      <ns1:customerCustomerRepositoryV1SaveResponse>
+         <result>
+            <id>8443</id>
+            <groupId>1</groupId>
+            <defaultBilling>6247</defaultBilling>
+            <defaultShipping>6247</defaultShipping>
+            <createdAt>2021-05-27 06:21:19</createdAt>
+            <updatedAt>2021-05-27 06:21:20</updatedAt>
+            <createdIn>Default Store View</createdIn>
+            <dob>1994-05-19</dob>
+            <email>lilymathews2000@gmail.com</email>
+            <firstname>lily</firstname>
+            <lastname>mathews</lastname>
+            <storeId>1</storeId>
+            <websiteId>1</websiteId>
+            <addresses>
+               <item>
+                  <id>6247</id>
+                  <customerId>8443</customerId>
+                  <region>
+                     <regionCode>Karnataka</regionCode>
+                     <region>Karnataka</region>
+                     <regionId>0</regionId>
+                  </region>
+                  <regionId>0</regionId>
+                  <countryId>IN</countryId>
+                  <street>
+                     <item>#55, 1 st Main Road</item>
+                  </street>
+                  <telephone>+91 9876543210</telephone>
+                  <postcode>560023</postcode>
+                  <city>Bengaluru</city>
+                  <firstname>lily</firstname>
+                  <lastname>mathews</lastname>
+                  <defaultShipping>true</defaultShipping>
+                  <defaultBilling>true</defaultBilling>
+               </item>
+            </addresses>
+            <disableAutoGroupChange>0</disableAutoGroupChange>
+            <extensionAttributes>
+               <isSubscribed>false</isSubscribed>
+            </extensionAttributes>
+         </result>
+      </ns1:customerCustomerRepositoryV1SaveResponse>
+   </env:Body>
+</env:Envelope>

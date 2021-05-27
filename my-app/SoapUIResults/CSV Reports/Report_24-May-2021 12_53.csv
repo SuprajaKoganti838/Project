@@ -1,0 +1,10 @@
+"Test Suite","Test Case","Test Step","Step Type","Step Status","Result message","Execution Date"
+"CustomerRepositoryFunctionalTesting","PropertyAndPropertyTransfer","Properties","properties","OK","","24-May-2021 12_53",
+"CustomerRepositoryFunctionalTesting","PropertyAndPropertyTransfer","Property Transfer","transfer","OK","Message:Performed transfer [email]
+Message:Performed transfer [firstname]
+Message:Performed transfer [lastname]
+Message:Performed transfer [firstname1]
+Message:Performed transfer [lastname1]
+","24-May-2021 12_53",
+"CustomerRepositoryFunctionalTesting","PropertyAndPropertyTransfer","Create Customer","request","FAILED","Message:[Not SOAP Fault] Response is a SOAP Fault
+","24-May-2021 12_53",

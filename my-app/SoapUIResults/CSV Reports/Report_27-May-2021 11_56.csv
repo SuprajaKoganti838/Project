@@ -1,0 +1,7 @@
+"Test Suite","Test Case","Test Step","Step Type","Step Status","Result message","Execution Date"
+"CustomerRepositoryFunctionalTesting","PropertyExpansion","Email First and Last Name Properties","properties","OK","","27-May-2021 11_56",
+"CustomerRepositoryFunctionalTesting","PropertyExpansion","Create Customer","request","OK","","27-May-2021 11_56",
+"CustomerRepositoryFunctionalTesting","PropertyExpansion","Get List","request","OK","","27-May-2021 11_56",
+"CustomerRepositoryFunctionalTesting","PropertyExpansion","Groovy Script","groovy","FAILED","Message:groovy.lang.MissingPropertyException: No such property: user for class: Script1
+Message:error at line: 22
+","27-May-2021 11_56",

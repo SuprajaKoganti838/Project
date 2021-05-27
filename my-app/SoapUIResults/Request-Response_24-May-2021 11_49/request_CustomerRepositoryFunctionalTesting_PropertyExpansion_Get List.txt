@@ -1,0 +1,10 @@
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:def="http://soap.upskills.in/soap/default?services=customerCustomerRepositoryV1">
+   <soap:Header/>
+   <soap:Body>
+      <def:customerCustomerRepositoryV1GetListRequest>
+         <searchCriteria>
+           
+         </searchCriteria>
+      </def:customerCustomerRepositoryV1GetListRequest>
+   </soap:Body>
+</soap:Envelope>
